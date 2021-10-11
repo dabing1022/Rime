@@ -1,2 +1,9 @@
 patch:
   menu/page_size: 9
+  style:
+    color_scheme: starcraft
+    horizontal: true
+    inline_preedit: true
+    font_point: 16
+    corner_radius: 5
+    candidate_format: "%c\u2005%@ \u2005"
