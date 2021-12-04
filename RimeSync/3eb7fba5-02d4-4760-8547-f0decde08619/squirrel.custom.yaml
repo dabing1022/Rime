@@ -1,0 +1,56 @@
+patch:
+  show_notifications_when: appropriate  # 状态通知，适当，也可设为全开（always）全关（never）
+  style:
+    border_height: 0
+    border_width: 0
+    color_scheme: childhoodandy_starcraft
+    comment_font_point: 18
+    corner_radius: 10
+    font_face: "Lucida Grande"
+    font_point: 16
+    hilited_corner_radius: 0
+    inline_preedit: true
+    label_font_point: 18
+    line_spacing: 5
+    spacing: 10
+    text_orientation: horizontal
+
+  preset_color_schemes:
+    childhoodandy_starcraft:
+      author: "Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment"
+      back_color: 0xee000000
+      border_color: 0x1010a0
+      candidate_text_color: 0x30bb55
+      comment_text_color: 0x1010d0
+      hilited_back_color: 0x000000
+      hilited_candidate_back_color: 0x00000000
+      hilited_candidate_text_color: 0x70ffaf
+      hilited_comment_text_color: 0x1010f0
+      hilited_text_color: 0xfecb96
+      name: "星際我爭霸／StarCraft"
+      text_color: 0xccaa88
+      horizontal: true
+
+  # 關閉中文輸入
+  # @see [http://code.google.com/p/rimeime/wiki/CustomizationGuide#在特定程序裏關閉中文輸入]
+  #
+  # Bundle Identifier 查找方法：
+  # 右键『应用.app』-> 显示包内容
+  # Contents/Info.plist -> BundleIdentifier
+  #           Bundle Identifier
+  app_options/com.apple.Xcode:
+    ascii_mode: false
+  app_options/org.vim.MacVim:
+    ascii_mode: true
+  app_options/com.google.Chrome:
+    ascii_mode: true
+  app_options/org.mozilla.firefox:
+    ascii_mode: true
+  app_options/com.apple.Safari:
+    ascii_mode: true
+  app_options/com.operasoftware.Opera:
+    ascii_mode: true
+  app_options/org.keepassx.keepassx:
+    ascii_mode: true
+  app_options/com.apple.Spotlight:
+    ascii_mode: true
