@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1639972993
+  last_build_time: 1640314470
   option:
     zh_hans: true
     zh_hant: false
@@ -8,4 +8,4 @@ var:
     bopomofo: 1638583732
     luna_pinyin: 1638583779
     luna_pinyin_fluency: 1638583804
-    luna_pinyin_simp: 1638583819
+    luna_pinyin_simp: 1641289694
